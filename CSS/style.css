@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 10px solid #29BF34;
+    font-family: Arial, sans-serif;
+    background-image: url('../Pictures/back1.png');
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    border: 2px solid #a59595;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+    border-radius: 30%;
+}
+.nav {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #29BF34;
+}
+
+.cta-button {    
+    color: #29BF34;
+    border: 1px solid #e21e1e;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.cta-button:hover {
+    background-color: #e21e1e; 
+}
+
+.language {    
+    color: #29BF34;
+    border: 1px solid #e21e1e;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.language:hover {
+    background-color: #0f0a0a; 
+}
+
+footer {
+    color: #29BF34;
+    text-align: center;
+    padding: 10px;
+    /*position: fixed;
+    bottom: 0;*/
+    width: 100%;
+    height: 100%;
+    }
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+  
+.content-slider img {
+    width: 100%;
+}
+  
+.slider {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.slider h1 {
+    text-align: center;
+    color: #e21e1e;
+}
+  
+.slick-slide {
+    transition: transfrom 2s ease;
+}
+  
+.slick-center {
+    transform: scale(1.2);
+    z-index: 2;
+}
+  
+.slick-slide:not(.slick-center) {
+    transform: scale(0.7);
+    opacity: 0.4;
+}
+
+.cyber {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+     
+}
+
+.cyber img {
+    align-items: center;
+    width: 50%;
+    height: 30%;
+
+}
