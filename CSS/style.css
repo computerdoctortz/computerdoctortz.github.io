@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    border: 2px solid #a59595;
+    border: 2px dashed #a59595;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -154,3 +154,6 @@ footer {
     transform-origin: center;
 }
 
+h2 {
+    border-top: 2px dashed #29BF34;
+}
