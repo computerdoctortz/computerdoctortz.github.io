@@ -164,3 +164,82 @@ footer {
 h2 {
     border-top: 2px dashed #29BF34;
 }
+
+ p {
+          color: #29BF34;
+          font-size: 1.5em;
+          text-shadow: 0 0 10px #29BF34;
+          line-height: 1.6;
+          margin: 20px;
+          text-align: center;
+
+        }
+        .zone h1 {
+            font-size: 3em;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            animation: glitch 1.5s infinite; 
+            
+        }
+
+        .para p {
+            font-size: 1.5em;
+            margin: 20px;
+            line-height: 1.6;
+            text-align: center;
+            text-shadow: 0 0 10px #29BF34;
+            animation: glitch2 2s infinite;
+        }
+
+        .para a {
+            color: #e21e1e; 
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .para a:hover {
+            text-shadow: 0 0 5px #e21e1e, 0 0 10px #e21e1e; 
+        }
+
+      
+        @keyframes glitch {
+            0% {
+                text-shadow: 2px 2px 0 #e21e1e, -2px -2px 0 #29BF34;
+            }
+            20% {
+                text-shadow: -2px -2px 0 #e21e1e, 2px 2px 0 #29BF34;
+            }
+            40% {
+                text-shadow: 2px -2px 0 #e21e1e -2px 2px 0 #29BF34;
+            }
+            60% {
+                text-shadow: -2px 2px 0 #e21e1e, 2px -2px 0 #29BF34;
+            }
+            80% {
+                text-shadow: 0px 0px 10px #e21e1e, 0px 0px 10px #29BF34;
+            }
+            100% {
+                text-shadow: 2px 2px 0 #e21e1e, -2px -2px 0 #29BF34;
+            }
+        }
+
+        @keyframes glitch2 {
+            0% {
+                transform: translate(0);
+            }
+            20% {
+                transform: translate(-3px, -3px);
+            }
+            40% {
+                transform: translate(3px, 3px);
+            }
+            60% {
+                transform: translate(-2px, 2px);
+            }
+            80% {
+                transform: translate(2px, -2px);
+            }
+            100% {
+                transform: translate(0);
+            }
+        }
