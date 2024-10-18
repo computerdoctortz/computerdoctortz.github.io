@@ -6,10 +6,11 @@
 
 body {
     border: 10px solid #29BF34;
-    font-family: Arial, sans-serif;
+    font-family: "Monaco", monospace;
     background-image: url('../Pictures/back1.png');
     line-height: 1.6;
     padding: 20px;
+    text-align: center;
 }
 
 header {
