@@ -29,6 +29,12 @@ header img {
     height: 100%;
 }
 
+a {
+    color: #e21e1e; 
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
