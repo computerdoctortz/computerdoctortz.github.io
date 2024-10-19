@@ -187,6 +187,7 @@ h2 {
             letter-spacing: 5px;
             text-transform: uppercase;
             animation: glitch3 1.5s infinite;
+         }
 
         .para p {
             font-size: 1.5em;
