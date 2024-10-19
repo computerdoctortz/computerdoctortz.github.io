@@ -217,7 +217,7 @@ h2 {
                 text-shadow: -2px -2px 0 #e21e1e, 2px 2px 0 #29BF34;
             }
             40% {
-                text-shadow: 2px -2px 0 #e21e1e -2px 2px 0 #29BF34;
+                text-shadow: 2px -2px 0 #e21e1e, -2px 2px 0 #29BF34;
             }
             60% {
                 text-shadow: -2px 2px 0 #e21e1e, 2px -2px 0 #29BF34;
@@ -259,7 +259,7 @@ h2 {
                 text-shadow: 2px 2px 0 #29BF34, -2px -2px 0 #e21e1e, -2px -50px 0 #a59595;
             }
             40% {
-                text-shadow: 2px 50px 0 #a59595 -2px 2px 0 #29BF34, -2px -2px 0 #e21e1e;
+                text-shadow: 2px 50px 0 #a59595, -2px 2px 0 #29BF34, -2px -2px 0 #e21e1e;
             }
             60% {
                 text-shadow: 2px -2px 0 #29BF34, -2px -2px 0 #e21e1e, -2px 2px 0 #a59595;
