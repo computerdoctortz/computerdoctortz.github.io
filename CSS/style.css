@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    border: 2px dashed #a59595;
+    /*border: 2px dashed #a59595;*/
     text-align: center;
     margin-bottom: 40px;
 }
