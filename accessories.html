@@ -20,6 +20,9 @@
 <body>
     <header>
         <a href="index.html"><img src="logo/original-HD-logo.png" alt="Computer Doctor Logo" draggable="false"></a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="nav">
             <a href="maintenance.html" class="cta-button">Computer Maintenance</a>
             <a href="cyber.html" class="cta-button">Cyber Security</a>
@@ -89,8 +92,12 @@
         <a href="https://wa.me/+255787332574" class="icon"><i class="fab fa-whatsapp"></i></a>
         <hr>
     </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('open');
+        });
+    </script>
 
-    <!-- Optional JavaScript for Slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
