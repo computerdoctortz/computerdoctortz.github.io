@@ -19,6 +19,9 @@
 <body>
     <header>
         <img style="max-width: 250px;" src="logo/logo.png" alt="Computer Doctor Logo" draggable="false">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="nav">
             <a href="maintenance.html" class="cta-button">Computer Maintenance</a>
             <a href="network.html" class="cta-button">Network Solutions</a>
@@ -40,6 +43,11 @@
         <a href="https://wa.me/+255787332574" class="icon"><i class="fab fa-whatsapp"></i></a>
         <hr />
       </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('open');
+        });
+    </script>
 
     <script>
         document.addEventListener("contextmenu", function(e) {
