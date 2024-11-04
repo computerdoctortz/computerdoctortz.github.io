@@ -272,4 +272,28 @@ h2 {
                 text-shadow: 2px 2px 0 #a59595, -2px -2px 0 #29BF34, -2px -2px 0 #e21e1e;
             }
         }
+.flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; 
+        justify-content: center; 
+}
+.flex-container div {
+       flex: 1 1 calc(33.333% - 10px); 
+       max-width: 33.333%;
+       text-align: center; 
+}
+.flex-container img {
+       width: 100%;
+       height: auto;
+       display: block;
+       /*border: 1px dashed  #b5b6bb;  /*Add border to each image */
+       border-radius: 10px; 
+       padding: 5px; 
+}
+.flex-container p {
+       color: #e21e1e; 
+       font-weight: bold; 
+       margin: 5px 0 0 0;
+}
 
