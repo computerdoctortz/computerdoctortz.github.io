@@ -222,35 +222,39 @@
     </tbody>
 </table>
 
-    <button class="btn" onclick="showPopup()">💰 Check Price</button>
-    <button class="btn" onclick="showPopup('nextLearnPopup')">What’s Next to Learn?</button>
+<button class="btn" onclick="showPopup('pricePopup')">💰 Check Price</button>
+<button class="btn" onclick="showPopup('nextLearnPopup')">What’s Next to Learn?</button>
 
-    <div class="overlay" id="overlay" onclick="hidePopup()"></div>
+<div class="overlay" id="overlay" onclick="hidePopup()"></div>
 
-    <div class="popup" id="pricePopup">
-        <h2>Training Price-Fee</h2>
-        <p>The cost for the training is <strong>30,000Tshs</strong> only</p>
-        <button class="close-btn" onclick="hidePopup()">Close</button>
-    </div>
-    <div id="nextLearnPopup" class="popup">
-        <p>📚 **Next Training: Security Platforms & Network Management**</p>
-        <p>🔹 Learn how to **install, configure, and run Security Onion** for network monitoring & threat detection.</p>
-        <p>🔹 Master **pfSense** for advanced network security and firewall management.</p>
-        <p>🔹 Gain hands-on experience in setting up **intrusion detection & network management tools**.</p>
-        <button onclick="closePopup('nextLearnPopup')">Close</button>
-    </div>
+<div class="popup" id="pricePopup">
+    <h2>Training Price-Fee</h2>
+    <p>The cost for the training is <strong>30,000 Tshs</strong> only</p>
+    <button class="close-btn" onclick="hidePopup()">Close</button>
+</div>
 
-    <script>
-        function showPopup() {
-            document.getElementById("pricePopup").style.display = "block";
-            document.getElementById("overlay").style.display = "block";
-        }
+<div class="popup" id="nextLearnPopup">
+    <h2>📚 Next Training: Security Platforms & Network Management</h2>
+    <p>🔹 Learn how to **install, configure, and run Security Onion** for network monitoring & threat detection.</p>
+    <p>🔹 Master **pfSense** for advanced network security and firewall management.</p>
+    <p>🔹 Gain hands-on experience in setting up **intrusion detection & network management tools**.</p>
+    <button class="close-btn" onclick="hidePopup()">Close</button>
+</div>
 
-        function hidePopup() {
-            document.getElementById("pricePopup").style.display = "none";
-            document.getElementById("overlay").style.display = "none";
-        }
-    </script>
+<script>
+    function showPopup(id) {
+        document.getElementById(id).style.display = "block";
+        document.getElementById("overlay").style.display = "block";
+    }
+
+    function hidePopup() {
+        document.querySelectorAll('.popup').forEach(popup => {
+            popup.style.display = "none";
+        });
+        document.getElementById("overlay").style.display = "none";
+    }
+</script>
+
 
 <footer>
     <h2><i>"The Best in Technology Service and Sulutions Support"</i></h2>
