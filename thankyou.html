@@ -43,7 +43,7 @@ p {
     margin: 10px 0;
 }
 .success-icon {
-    font-size: 50px;
+    font-size: 250px;
     color: #28a745;
     margin-bottom: 15px;
 }
@@ -52,6 +52,22 @@ p {
     font-weight: bold;
     color: #007bff;
 }
+.btn {
+        display: inline-block;
+        background-color: #00cc77;
+        color: white; 
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        text-decoration: none; 
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: #009955; 
+    }
+        
     </style>
 </head>
 <body>
@@ -59,8 +75,13 @@ p {
     <div class="success-icon">✓</div>
     <h2 class="thank-you">Thank You for Registering!</h2>
     <p>We have received your details. Our team will contact you soon with further details.</p>
-    <a href="https://www.computerdoctortz.co.tz/form.html">Go Back</a>
+    <a href="https://www.computerdoctortz.co.tz/form.html" class="btn">Go Back</a>
 
     </div>
+    <script>
+    document.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+    });
+</script>
 </body>
 </html>
